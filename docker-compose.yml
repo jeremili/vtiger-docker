@@ -4,4 +4,4 @@ services:
     image: ghcr.io/jeremili/vtiger/vtiger
     restart: unless-stopped
     ports:
-      - "9002:80"
+      - "8080:80"
